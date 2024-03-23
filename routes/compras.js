@@ -1,0 +1,5 @@
+import {Router} from 'express'
+import httpCompras from '../controllers/compras.js'
+import helpersCategorias from '../helpers/categorias.js'
+import { validarCampos } from '../middlewares/validar-campos.js'
+import { check } from 'express-validator'
